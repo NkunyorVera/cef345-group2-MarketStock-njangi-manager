@@ -1,9 +1,5 @@
 # MarketStock: Software Requirements Specification
 
-
-
-
-
 ## 1. Introduction
 
 **Purpose.** This document defines what MarketStock must do. It is written for the developers, the testers, the course lecturer and the client (Mami Ngum).
@@ -30,13 +26,13 @@
 | Divine (assistant) | Record sales quickly, and not be blamed for missing stock |
 | Customers | Credit balances recorded correctly |
 | Suppliers in Douala | (Indirect) more regular restock orders |
-| Development group | Deliver by February with five part-time members |
+| Development group | Deliver by February with ten part-time members |
 
 **Users.** The owner and the assistant use basic Android phones and are busy serving customers all day. They read French and English, and have little experience with apps.
 
 **Operating environment.** A mobile phone browser (360 px wide) on a 3G connection.
 
-**Constraints.** Amounts are shown in XAF with no decimals. The project is built with free tools by five students, part-time, by February.
+**Constraints.** Amounts are shown in XAF with no decimals. The project is built with free tools by ten students, part-time, by February.
 
 **Assumptions.** The stall has mobile data during opening hours. Each user has their own login.
 
@@ -72,7 +68,7 @@
 
 ## 5. Use cases
 
-&#91;embedded content: MarketStock use case diagram · 2 actors, 10 use cases\]
+![MarketStock use case diagram: 2 actors, 10 use cases](diagrams/usecases.drawio.svg)
 
 The three most important use cases are described below.
 
